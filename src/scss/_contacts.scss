@@ -1,0 +1,27 @@
+.contacts-content{
+    gap: 60px;
+    .contacts {
+        padding: 30px;
+        background-color: #23272e;
+    
+        .contact {
+            display: flex;
+            padding: 10px;
+            gap: 10px;
+    
+            p {
+                display: flex;
+    
+                a {
+                    margin-left: 10px;
+                    color: $gray;
+                    text-decoration: none;
+    
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}

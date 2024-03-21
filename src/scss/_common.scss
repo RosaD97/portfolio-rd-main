@@ -1,0 +1,30 @@
+body {
+    background-color: $background;
+    color: $white;
+}
+
+// Text
+.primary-text{
+    color: $primary;
+}
+.gray-text{
+    color: $gray;
+}
+
+// title
+.title{
+    h3{
+        margin-bottom: 30px;
+        &::after{
+            content: '';
+            margin-left: 10px;
+            width: 30rem;
+            height: 1px;
+            background-color: $primary;
+            display: inline-block;
+            @media screen and (max-width: 650px) {
+                width: 3rem;
+            }
+        }
+    }
+}

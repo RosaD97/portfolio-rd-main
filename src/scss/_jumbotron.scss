@@ -1,0 +1,12 @@
+.jumb {
+    .img-wrapper {
+        max-height: 360px;
+        max-width: 450;
+
+        img {
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

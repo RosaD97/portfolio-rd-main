@@ -1,0 +1,10 @@
+.my_button{
+    border: 1px solid $primary;
+    width: fit-content;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: #1a1d22;
+        cursor: pointer;
+        
+    }
+}

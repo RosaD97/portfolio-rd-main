@@ -1,0 +1,34 @@
+.header {
+    .img-wrapper{
+        width: 20px;
+        img{
+            width: 100%;
+        }
+    }
+    .link-page {
+        color: $gray;
+        cursor: pointer;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    .link-color {
+        color: $primary;
+    }
+
+    .my_navbar {
+        @media screen and (max-width: 650px) {
+            display: none !important;
+        }
+    }
+
+    .mini-menu {
+        display: none;
+
+        @media screen and (max-width: 650px) {
+            display: block !important;
+        }
+    }
+}

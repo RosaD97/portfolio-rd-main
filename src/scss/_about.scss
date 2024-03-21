@@ -1,0 +1,13 @@
+.about{
+    .img-wrapper{
+        max-width: 60%;
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+    .text{
+        line-height: 250%;
+        font-weight: 300;
+    }
+}

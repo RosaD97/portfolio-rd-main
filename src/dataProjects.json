@@ -1,0 +1,301 @@
+[
+    {
+        "id": 1,
+        "title": "CampusHome",
+        "desc": "Web App ricerca case per studenti",
+        "longDesc": "CampusHome è un'applicazione web intuitiva progettata per facilitare la ricerca di case e stanze per studenti. Con una vasta selezione di opzioni disponibili, gli studenti possono trovare facilmente alloggi adatti alle loro esigenze e preferenze. Questa app è collegata con il gestionale CampusHome Back end fatto in php/laravel/mysql",
+        "imgs": [
+            "image/projects/houses-fe.png",
+            "image/projects/houses-fe-2.png",
+            "image/projects/houses-fe-3.png",
+            "image/projects/houses-fe-4.png",
+            "image/projects/houses-fe-5.png",
+            "image/projects/houses-fe-7.png",
+            "image/projects/houses-fe-8.png",
+            "image/projects/houses-fe-9.png",
+            "image/projects/houses-fe-10.png",
+            "image/projects/houses-fe-11.png",
+            "image/projects/houses-fe-12.png",
+            "image/projects/houses-fe-13.png"
+        ],
+        "dev": [
+            "HTML",
+            "Javascript",
+            "React",
+            "Sass",
+            "Bootstrap"
+        ],
+        "git": "https://github.com/RosaD97/houses-fe",
+        "live": false
+    },
+    {
+        "id": 2,
+        "title": "CampusHome Gestionale",
+        "desc": "Web App ricerca case per studenti",
+        "longDesc": "CampusHome Back end è un gestionale web app che semplifica la gestione degli alloggi per studenti. I proprietari possono inserire le loro proprietà, che saranno visualizzate sul portale front-end CampusHome. Gli studenti possono cercare e contattare direttamente i proprietari per affittare le stanze. L'app offre strumenti per gestire gli inquilini, inclusi pagamenti.",
+        "imgs": [
+            "image/projects/houses-be.png",
+            "image/projects/houses-be-2.png",
+            "image/projects/houses-be-3.png",
+            "image/projects/houses-be-4.png",
+            "image/projects/houses-be-5.png",
+            "image/projects/houses-be-6.png",
+            "image/projects/houses-be-7.png",
+            "image/projects/houses-be-8.png",
+            "image/projects/houses-be-9.png",
+            "image/projects/houses-be-10.png",
+            "image/projects/houses-be-11.png",
+            "image/projects/houses-be-12.png"
+        ],
+        "dev": [
+            "PHP",
+            "Laravel",
+            "MySql",
+            "Sass",
+            "Bootstrap"
+        ],
+        "git": "https://github.com/RosaD97/gestionale-houses-be",
+        "live": false
+    },
+    {
+        "id": 3,
+        "title": "Food For All",
+        "desc": "Web App Full Stack per ordinare cibo",
+        "longDesc": "Food For All è una web app che ti permette di ordinare cibo da una vasta gamma di ristoranti. La sua interfaccia intuitiva si adatta a diverse dimensioni di schermo, garantendo un'esperienza ottimale su dispositivi mobili e desktop. Gli utenti possono esplorare una varietà di piatti e modificare gli ordini con facilità. Collegata col progetto Food For All Back-end che è un gestionale per i ristoratori.",
+        "imgs": [
+            "image/projects/food-fe.png",
+            "image/projects/food-fe-2.png",
+            "image/projects/food-fe-3.png",
+            "image/projects/food-fe-4.png",
+            "image/projects/food-fe-5.png",
+            "image/projects/food-fe-6.png",
+            "image/projects/food-fe-7.png",
+            "image/projects/food-fe-8.png"
+        ],
+        "dev": [
+            "HTML",
+            "Javascript",
+            "Vue",
+            "Sass",
+            "Bootstrap"
+        ],
+        "git": "https://github.com/RosaD97/deliveboo-frontend-master",
+        "live": false
+    },
+    {
+        "id": 4,
+        "title": "Food For All Back End",
+        "desc": "Web App Full Stack ristoratori",
+        "longDesc": "Food For All per i ristoratori è un efficace sistema gestionale che consente loro di inserire i propri piatti sul portale Food For All in modo organizzato e semplice. Con funzionalità avanzate di gestione del menu e degli ordini, offre agli operatori del settore alimentare un modo efficiente per ottimizzare le proprie operazioni e aumentare la loro visibilità online.",
+        "imgs": [
+            "image/projects/food-be.png",
+            "image/projects/food-be-2.png",
+            "image/projects/food-be-3.png",
+            "image/projects/food-be-4.png",
+            "image/projects/food-be-5.png"
+        ],
+        "dev": [
+            "HTML",
+            "Javascript",
+            "Vue",
+            "Sass",
+            "Bootstrap",
+            "PHP",
+            "Laravel",
+            "MySql"
+        ],
+        "git": "https://github.com/RosaD97/deliveboo-frontend-master",
+        "live": false
+    },
+    {
+        "id": 5,
+        "title": "Memory Game",
+        "desc": "Gioco memory fatto in React",
+        "longDesc": "Memory Game è un classico gioco di memoria in cui il giocatore deve abbinare le carte con lo stesso simbolo. Il gioco è composto da un set di carte coperte. Il giocatore può scoprire due carte alla volta, cercando di ricordare la posizione delle diverse immagini per fare corrispondere le coppie. Sito responsivo",
+        "imgs": [
+            "image/projects/memory.png",
+            "image/projects/memory-2.png",
+            "image/projects/memory-3.png",
+            "image/projects/memory-4.png",
+            "image/projects/memory-5.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS",
+            "React"
+        ],
+        "git": "a",
+        "live": "https://memory-game-rosydev.netlify.app"
+    },
+    {
+        "id": 6,
+        "title": "Campo minato",
+        "desc": "Gioco campo minato Javascript",
+        "longDesc": "Campo Minato è un gioco realizzato in HTML, CSS e JavaScript. Offre opzioni di difficoltà e una griglia generata casualmente con mine. Il giocatore può scoprire le caselle per evitare le mine, con un'interfaccia responsiva adatta a vari dispositivi. Vinci evitando le mine e ottieni il punteggio più alto!",
+        "imgs": [
+            "image/projects/minato.png",
+            "image/projects/minato-2.png",
+            "image/projects/minato-3.png",
+            "image/projects/minato-4.png",
+            "image/projects/minato-5.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "git": "a",
+        "live": "https://rosad97.github.io/js-campominato-dom/"
+    },
+    {
+        "id": 7,
+        "title": "Discord",
+        "desc": "Copia del sito web Discord",
+        "longDesc": "Questo progetto è una replica della popolare piattaforma di comunicazione Discord realizzata utilizzando esclusivamente HTML e CSS. L'obiettivo principale di questo progetto è quello di ricreare l'aspetto e il comportamento dell'applicazione Discord",
+        "imgs": [
+            "image/projects/discord.png",
+            "image/projects/discord-2.png",
+            "image/projects/discord-3.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS"
+        ],
+        "git": "a",
+        "live": false
+    },
+    {
+        "id": 8,
+        "title": "Boolflix",
+        "desc": "Ricerca informazioni sui film",
+        "longDesc": "L'app Boolflix, sviluppata con Vue.js, JavaScript e Sass, consente agli utenti di cercare e visualizzare informazioni su numerosi film. Grazie a un'interfaccia intuitiva e reattiva, gli utenti possono esplorare una vasta gamma di film.",
+        "imgs": [
+            "image/projects/boolflix.png",
+            "image/projects/boolflix-2.png",
+            "image/projects/boolflix-3.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vue",
+            "Sass",
+            "Vite"
+        ],
+        "git": "https://github.com/RosaD97/vue-boolzapp",
+        "live": "https://boolflix-rosydev.netlify.app"
+    },
+    {
+        "id": 9,
+        "title": "App Ionic Netflix",
+        "desc": "App mobile ricerca film",
+        "longDesc": "L'app Ionic Movies offre agli utenti un'esperienza completa per esplorare e ottenere informazioni sui film. Sviluppata con Ionic e Angular.",
+        "imgs": [
+            "image/projects/app-flix.png",
+            "image/projects/app-flix-2.png",
+            "image/projects/app-flix-3.png",
+            "image/projects/app-flix-4.png",
+            "image/projects/app-flix-5.png"
+        ],
+        "dev": [
+            "HTML",
+            "Typescript",
+            "Angular",
+            "Sass",
+            "Ionic"
+        ],
+        "git": "https://github.com/RosaD97/modern-app-netflix-master",
+        "live": false
+    },
+    {
+        "id": 10,
+        "title": "Biglietto Treno",
+        "desc": "Calcola il biglietto del treno",
+        "longDesc": "Questa web app è uno strumento interattivo che consente agli utenti di calcolare il costo del biglietto del treno in base a diversi fattori come la distanza del viaggio e l'età del passeggero.",
+        "imgs": [
+            "image/projects/biglietto.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "git": "https://github.com/RosaD97/js-biglietto-treno-form",
+        "live": "https://rosad97.github.io/js-biglietto-treno-form/"
+    },
+    {
+        "id": 11,
+        "title": "Whatsapp",
+        "desc": "App di messaggistica",
+        "longDesc": "Una app di messaggistica, WhatsApp Web, creata su milestone utilizzando HTML, CSS e JavaScript.",
+        "imgs": [
+            "image/projects/whatsapp.png",
+            "image/projects/whatsapp-2.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "git": "https://github.com/RosaD97/vue-boolzapp",
+        "live": false
+    },
+    {
+        "id": 12,
+        "title": "DC Comics",
+        "desc": "Copia web app DC Comics",
+        "longDesc": "L'app DC Comics è stata sviluppata utilizzando Vue.js per la logica del frontend, JavaScript per l'interattività, Sass per lo stile e Vite per la gestione del build. Questo stack tecnologico ha permesso di creare un'interfaccia utente dinamica e coinvolgente, rispecchiando fedelmente lo stile e i contenuti del sito web originale.",
+        "imgs": [
+            "image/projects/dc.png",
+            "image/projects/dc-2.png",
+            "image/projects/dc-3.png",
+            "image/projects/dc-4.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vue",
+            "Sass",
+            "Vite"
+        ],
+        "git": "https://github.com/RosaD97/vue-boolzapp",
+        "live": false
+    },
+    {
+        "id": 13,
+        "title": "Dropbox",
+        "desc": "Copia del sito web Dropbox",
+        "longDesc": "Questo progetto è una replica dell'interfaccia utente della popolare piattaforma di archiviazione cloud Dropbox, realizzata utilizzando esclusivamente HTML e CSS.",
+        "imgs": [
+            "image/projects/drop.png",
+            "image/projects/drop-2.png",
+            "image/projects/drop-3.png",
+            "image/projects/drop-4.png",
+            "image/projects/drop-5.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS"
+        ],
+        "git": "a",
+        "live": false
+    },
+    {
+        "id": 14,
+        "title": "Spotify",
+        "desc": "Copia del sito web Spotify",
+        "longDesc": "Questo progetto è un'accurata riproduzione dell'interfaccia utente del sito web di Spotify, realizzata utilizzando esclusivamente HTML e CSS. L'obiettivo principale di questo progetto è quello di offrire agli utenti un'esperienza simile a quella del sito web reale di Spotify, il tutto in un'interfaccia utente reattiva e adattabile a diverse dimensioni di schermo.",
+        "imgs": [
+            "image/projects/spotify.png",
+            "image/projects/spotify-2.png",
+            "image/projects/spotify-3.png"
+        ],
+        "dev": [
+            "HTML",
+            "CSS"
+        ],
+        "git": "a",
+        "live": false
+    }
+]

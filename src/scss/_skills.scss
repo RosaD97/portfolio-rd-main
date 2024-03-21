@@ -1,0 +1,86 @@
+.skill-content {
+    .img-wrapper{
+        width: 60%;
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+        @media screen and (min-width: 1040px) {
+            width: 40%;
+        }
+    }
+    .mini-card-grid {
+        .mini-card-body {
+
+            a {
+                color: $gray;
+                font-family: sans-serif;
+                margin-top: 1rem;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+
+        .card {
+            background: #191c29;
+            width: var(--card-width);
+            padding: 20px 10px;
+            color: $primary;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            color: rgba(88, 199, 250, 1);
+            transition: color 1s;
+        }
+
+        .card:hover:before,
+        .card:hover:after {
+            animation: none;
+            opacity: 0;
+        }
+
+        .card::before,
+        .card::after {
+            content: "";
+            position: absolute;
+            background-image: linear-gradient(var(--rotate),
+                    #5ddfff,
+                    #3c67e3 43%,
+                    #f12775);
+        }
+
+        .card::after {
+            top: calc(var(--card-height) / 6);
+            left: 0;
+            right: 0;
+            height: 70%;
+            width: 70%;
+            margin: 0 auto;
+            transform: scale(0.8);
+            filter: blur(calc(var(--card-height) / 6));
+            opacity: 1;
+            transition: opacity 0.5s;
+            animation: spin 11s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
+
+:root {
+    --rotate: 132deg;
+    --card-height: 65vh;
+    --card-width: 45%;
+}
