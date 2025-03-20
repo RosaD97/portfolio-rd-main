@@ -6,17 +6,22 @@ import Skills from '../components/Skills'
 import About from '../components/About'
 import Contacts from '../components/Contacts'
 import Header from '../components/Header'
+import { LanguageProvider } from '../context'
+import Design from '../components/Design'
 
 function Home() {
     return (
         <>
-            <Header />
-            <Jumbotron id="home" />
-            <Quote />
-            <Projects id="works" />
-            <Skills id="about-me" />
-            <About />
-            <Contacts id="contacts" />
+            <LanguageProvider>
+                <Header />
+                <Jumbotron id="home" />
+                <Quote />
+                <Projects id="works" />
+                <Design id="design" />
+                <Skills id="about-me" />
+                <About />
+                <Contacts id="contacts" />
+            </LanguageProvider>
         </>
     )
 }

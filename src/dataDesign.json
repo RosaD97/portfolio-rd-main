@@ -1,0 +1,17 @@
+[
+    {
+      "id": 0,
+      "title" : "Game Development Page",
+      "desc": "Creata con Figma per il web e il mobile.",
+      "longDesc": "Design di una pagina dedicata allo sviluppo di giochi, creata con Figma per il web e il mobile.",
+      "imgs": [
+        "image/design/coverGameDesign.png",
+        "image/design/webpageGameDesign.png",
+        "image/design/mobilepageGameDesign.png"
+      ],
+      "dev": [
+        "Figma"
+      ],
+      "link": "https://www.figma.com/community/file/1385522565093024136/game-development-page"  
+    }
+]

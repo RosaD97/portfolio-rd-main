@@ -10,7 +10,7 @@ const navLink = [
 
 function Navbar() {
   return (
-    <ul className='my_navbar d-flex gap-4'>
+    <ul className='my_navbar d-flex gap-4 mb-0'>
        <li className='list-unstyled'>
         <span className='link-color'>#</span>
         <NavLink to="/" className="text-decoration-none link-page">home</NavLink>

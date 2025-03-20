@@ -26,7 +26,8 @@
             "Bootstrap"
         ],
         "git": "https://github.com/RosaD97/houses-fe",
-        "live": false
+        "live": false,
+        "date": "08/12/2024"
     },
     {
         "id": 2,
@@ -55,7 +56,8 @@
             "Bootstrap"
         ],
         "git": "https://github.com/RosaD97/gestionale-houses-be",
-        "live": false
+        "live": false,
+        "date": "08/12/2024"
     },
     {
         "id": 3,
@@ -80,7 +82,8 @@
             "Bootstrap"
         ],
         "git": "https://github.com/RosaD97/deliveboo-frontend-master",
-        "live": false
+        "live": false,
+        "date": "06/05/2023"
     },
     {
         "id": 4,
@@ -105,7 +108,8 @@
             "MySql"
         ],
         "git": "https://github.com/RosaD97/deliveboo-frontend-master",
-        "live": false
+        "live": false,
+        "date": "06/05/2023"
     },
     {
         "id": 5,
@@ -125,7 +129,8 @@
             "React"
         ],
         "git": "a",
-        "live": "https://memory-game-rosydev.netlify.app"
+        "live": "https://memory-game-rosydev.netlify.app",
+        "date": "26/04/2024"
     },
     {
         "id": 6,
@@ -145,7 +150,8 @@
             "Javascript"
         ],
         "git": "a",
-        "live": "https://rosad97.github.io/js-campominato-dom/"
+        "live": "https://rosad97.github.io/js-campominato-dom/",
+        "date": "06/12/2023"
     },
     {
         "id": 7,
@@ -162,7 +168,8 @@
             "CSS"
         ],
         "git": "a",
-        "live": false
+        "live": false,
+        "date": "23/05/2023"
     },
     {
         "id": 8,
@@ -183,7 +190,8 @@
             "Vite"
         ],
         "git": "https://github.com/RosaD97/vue-boolzapp",
-        "live": "https://boolflix-rosydev.netlify.app"
+        "live": "https://boolflix-rosydev.netlify.app",
+        "date": "23/02/2023"
     },
     {
         "id": 9,
@@ -205,7 +213,8 @@
             "Ionic"
         ],
         "git": "https://github.com/RosaD97/modern-app-netflix-master",
-        "live": false
+        "live": false,
+        "date": "04/09/2024"
     },
     {
         "id": 10,
@@ -221,7 +230,8 @@
             "Javascript"
         ],
         "git": "https://github.com/RosaD97/js-biglietto-treno-form",
-        "live": "https://rosad97.github.io/js-biglietto-treno-form/"
+        "live": "https://rosad97.github.io/js-biglietto-treno-form/",
+        "date": "13/02/2023"
     },
     {
         "id": 11,
@@ -238,7 +248,8 @@
             "Javascript"
         ],
         "git": "https://github.com/RosaD97/vue-boolzapp",
-        "live": false
+        "live": false,
+        "date": "13/03/2023"
     },
     {
         "id": 12,
@@ -260,7 +271,8 @@
             "Vite"
         ],
         "git": "https://github.com/RosaD97/vue-boolzapp",
-        "live": false
+        "live": false,
+        "date": "04/09/2023"
     },
     {
         "id": 13,
@@ -279,7 +291,8 @@
             "CSS"
         ],
         "git": "a",
-        "live": false
+        "live": false,
+        "date": "07/07/2023"
     },
     {
         "id": 14,
@@ -296,6 +309,29 @@
             "CSS"
         ],
         "git": "a",
-        "live": false
+        "live": false,
+        "date": "04/03/2023"
+    },
+    {
+        "id": 15,
+        "title": "lsDesign",
+        "desc": "Sito in WordPress con personalizzazione totale",
+        "longDesc": "Questo progetto è un sito WordPress che presenta un alto grado di personalizzazione sia nel back end che nel front end. Sono stati implementati blocchi custom con diverse modalità di rendering delle immagini (Low Res e High Res) per ottimizzare i tempi di caricamento e ridurre il peso del sito, oltre a una modalità giorno/notte. Il design è completamente responsivo e adattato per dispositivi mobili.",
+        "imgs": [
+            "image/projects/lsdesign-1.png",
+            "image/projects/lsdesign-2.png",
+            "image/projects/lsdesign-3.png",
+            "image/projects/lsdesign-4.png",
+            "image/projects/lsdesign-5.png"
+        ],
+        "dev": [
+            "Wordpress",
+            "CSS",
+            "PHP",
+            "Javascript"
+        ],
+        "git": "a",
+        "live": false,
+        "date": "01/03/2024"
     }
 ]

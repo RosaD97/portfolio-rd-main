@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import iconFull from '../../public/image/star-full.png'
 
 import { NavLink } from 'react-router-dom';
+import { LanguageContext } from '../context';
 
 function Header() {
+  const { language, changeLanguage } = useContext(LanguageContext);
 
+  const handleLanguageChange = (e) => {
+    changeLanguage(e.target.value);
+  };
 
   return (
     <div className='container header d-flex justify-content-between py-3'>
@@ -27,6 +32,11 @@ function Header() {
           </NavLink>
         </div>
         <Navbar />
+        {/* <select value={language} onChange={handleLanguageChange} 
+        className="px-2">
+          <option value="it">Ita</option>
+          <option value="en">Eng</option>
+        </select> */}
       </div>
     </div>
   )
